@@ -47,7 +47,7 @@ const router = createBrowserRouter([
         },
         {
             path:'/apply',
-            element:<Apply/>
+            element:<PrivetRoute><Apply/></PrivetRoute>
         }
       ]
     },
